@@ -1,5 +1,6 @@
 package com.example.relativelayout_syahid_12rpl
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -11,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSpinnerDay()
         setSpinnerTime()
+
     }
 
     fun setSpinnerDay(){
@@ -38,5 +40,7 @@ class MainActivity : AppCompatActivity() {
                 androidx.constraintlayout.widget.R.layout.support_simple_spinner_dropdown_item)
             Spinnerday2.adapter = it
         }
+
+
     }
 }

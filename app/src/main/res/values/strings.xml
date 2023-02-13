@@ -2,6 +2,7 @@
     <string name="app_name">RelativeLayout_Syahid_12RPL</string>
 
     <string name="arrayAlpha">Hello World Im Under The Water</string>
+    <string name="title"><font color='#000'> Let\'s find </font>\n <font color='#FFB31414'><font>Food</font> near you </font></string>
 
     <string-array name="day_array">
         <item>Monday</item>
